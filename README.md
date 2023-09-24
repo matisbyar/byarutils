@@ -13,16 +13,19 @@ npm install --save byarutils
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import Logger from 'byarutils'
+import ErrorHandler from 'byarutils'
 
-import MyComponent from 'byarutils'
-import 'byarutils/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
+function send(to, subject, body) {
+  try {
+    // ...
+    Logger.log('SUCCESS', 'Mail Sender Service', 'Mail sent successfully to: ' + to)
+  } catch (error) {
+    Logger.log('ERROR', 'Mail Sender Service', 'Mail sending failed to: ' + to)
+    ErrorHandler.addToPool(send, [to, subject, body], 3)
   }
 }
+
 ```
 
 ## License
