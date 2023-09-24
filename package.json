@@ -1,11 +1,11 @@
 {
   "name": "byarutils",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Helpful tools to assist your React projects",
   "author": "matisbyar",
   "license": "MIT",
   "repository": "matisbyar/byarutils",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
@@ -48,7 +48,8 @@
     "react-scripts": "^3.4.1"
   },
   "files": [
-    "dist"
+    "src/error-handler.js",
+    "src/logger.js"
   ],
   "dependencies": {
     "node-cron": "^3.0.2"
