@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Matis Byar — MIT
+ */
+
 /**
  * @module ErrorHandler
  * @description
