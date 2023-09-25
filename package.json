@@ -1,11 +1,11 @@
 {
   "name": "byarutils",
   "version": "0.1.0",
-  "description": "Helpful tools to assist your React projects",
-  "author": "matisbyar",
+  "description": "Simple, powerful, lightweight helpers library to assist your projects",
+  "author": "Matis Byar <matis@byar.fr> (https://www.byar.fr)",
   "license": "MIT",
   "repository": "matisbyar/byarutils",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
@@ -26,32 +26,22 @@
   "peerDependencies": {
     "react": "^16.0.0"
   },
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-config-standard-react": "^9.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-standard": "^4.0.1",
-    "gh-pages": "^2.2.0",
-    "microbundle-crl": "^0.13.10",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
-  },
   "files": [
-    "src/error-handler.js",
-    "src/logger.js"
+    "lib/"
   ],
   "dependencies": {
     "node-cron": "^3.0.2"
-  }
+  },
+  "keywords": [
+    "utils",
+    "helpers",
+    "byarutils",
+    "error",
+    "errors",
+    "error handling",
+    "error handling helpers",
+    "logger",
+    "logging",
+    "logging helpers"
+  ]
 }
