@@ -1,6 +1,6 @@
 # byarutils
 
-> Helpful tools to assist your React projects
+> Simple, powerful, lightweight helpers library to assist your projects
 
 [![NPM](https://img.shields.io/npm/v/byarutils.svg)](https://www.npmjs.com/package/byarutils) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
