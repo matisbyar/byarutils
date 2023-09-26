@@ -43,8 +43,5 @@
     "logger",
     "logging",
     "logging helpers"
-  ],
-  "publishConfig": {
-    "@matisbyar:registry": "https://npm.pkg.github.com"
-  }
+  ]
 }
