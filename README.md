@@ -31,3 +31,7 @@ function send(to, subject, body) {
 ## License
 
 MIT © [matisbyar](https://github.com/matisbyar)
+
+## Thanks to contributors
+
+- [Valentin Vanhove](https://github.com/vanhovev)
