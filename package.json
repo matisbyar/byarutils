@@ -1,11 +1,11 @@
 {
   "name": "byarutils",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Simple, powerful, lightweight helpers library to assist your projects",
   "author": "Matis Byar <matis@byar.fr> (https://www.byar.fr)",
   "license": "MIT",
   "repository": "matisbyar/byarutils",
-  "main": "src/index.js",
+  "main": "index.js",
   "engines": {
     "node": ">=10"
   },
