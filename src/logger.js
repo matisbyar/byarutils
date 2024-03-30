@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023. Matis Byar — MIT
+ * Copyright (c) 2023-2024. Matis Byar — MIT
  */
 
 /**
@@ -56,3 +56,5 @@ function log(type, processName, message = '') {
 module.exports = {
   log
 };
+
+export default log;

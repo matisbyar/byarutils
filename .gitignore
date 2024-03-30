@@ -24,7 +24,7 @@ yarn-error.log*
 .editorconfig
 .eslintignore
 .eslintrc
-lib/.eslintrc
+src/.eslintrc
 .prettierrc
 .travis.yml
 package-lock.json

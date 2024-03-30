@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023. Matis Byar — MIT
+ * Copyright (c) 2023-2024. Matis Byar — MIT
  */
 
 /**
@@ -107,3 +107,5 @@ function removeFromPool(methodKey, args) {
 module.exports = {
   addToPool
 };
+
+export default module.exports;

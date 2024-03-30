@@ -13,16 +13,16 @@ npm install --save byarutils
 ## Usage
 
 ```jsx
-import Logger from 'byarutils'
-import ErrorHandler from 'byarutils'
+import log from 'byarutils'
+import addToPool from 'byarutils'
 
 function send(to, subject, body) {
   try {
     // ...
-    Logger.log('SUCCESS', 'Mail Sender Service', 'Mail sent successfully to: ' + to)
+    log('SUCCESS', 'Mail Sender Service', 'Mail sent successfully to: ' + to)
   } catch (error) {
-    Logger.log('ERROR', 'Mail Sender Service', 'Mail sending failed to: ' + to)
-    ErrorHandler.addToPool(send, [to, subject, body], 3)
+    log('ERROR', 'Mail Sender Service', 'Mail sending failed to: ' + to)
+    addToPool(send, [to, subject, body], 3)
   }
 }
 
