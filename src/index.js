@@ -1,7 +1,2 @@
-const logger = require("./logger");
-const errorHandler = require("./error-handler");
-
-module.exports = {
-  logger,
-  errorHandler
-};
+export { default as logger } from './logger';
+export { default as errorHandler } from './error-handler';
