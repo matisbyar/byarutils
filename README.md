@@ -13,8 +13,8 @@ npm install --save byarutils
 ## Usage
 
 ```jsx
-import log from 'byarutils'
-import addToPool from 'byarutils'
+import { log } from 'byarutils'
+import { addToPool } from 'byarutils'
 
 function send(to, subject, body) {
   try {
