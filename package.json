@@ -1,6 +1,6 @@
 {
   "name": "byarutils",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Simple, powerful, lightweight helpers library to assist your projects",
   "author": "Matis Byar <matis@byar.fr> (https://www.byar.fr)",
   "license": "MIT",
@@ -22,7 +22,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "files": [
-    "src/"
+    "src/",
+    "index.d.ts"
   ],
   "dependencies": {
     "node-cron": "^3.0.2"
