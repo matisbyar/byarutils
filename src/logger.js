@@ -53,8 +53,4 @@ function log(type, processName, message = '') {
   console.log(`[${timestamp}] ${type} — ${processName}: ${message}`);
 }
 
-module.exports = {
-  log
-};
-
-export default log;
+export { log };

@@ -104,8 +104,4 @@ function removeFromPool(methodKey, args) {
   }), 1);
 }
 
-module.exports = {
-  addToPool
-};
-
-export default module.exports;
+export { addToPool };
