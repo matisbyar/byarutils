@@ -1,10 +1,7 @@
-var logger = require("./logger");
-var errorHandler = require("./error-handler");
-module.exports = {
-  logger: logger,
-  errorHandler: errorHandler
-};
-var index = module.exports;
+const logger = require("./logger");
+const errorHandler = require("./error-handler");
 
-module.exports = index;
-//# sourceMappingURL=index.js.map
+module.exports = {
+  logger,
+  errorHandler
+};
