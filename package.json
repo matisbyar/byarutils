@@ -1,6 +1,6 @@
 {
   "name": "byarutils",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Simple, powerful, lightweight helpers library to assist your projects",
   "author": "Matis Byar <matis@byar.fr> (https://www.byar.fr)",
   "license": "MIT",
@@ -38,5 +38,6 @@
     "logger",
     "logging",
     "logging helpers"
-  ]
+  ],
+  "types": "index.d.ts"
 }
