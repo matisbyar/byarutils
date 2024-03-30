@@ -1,6 +1,6 @@
 {
   "name": "byarutils",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Simple, powerful, lightweight helpers library to assist your projects",
   "author": "Matis Byar <matis@byar.fr> (https://www.byar.fr)",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "prepare": "npm run test && npm run build",
+    "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
     "test:lint": "eslint .",
